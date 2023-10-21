@@ -6,9 +6,17 @@
 
 .user_name{
   text-align: center;
-  font-family: cursive;
-  color: linen;
 }
+
+.inst_Id {
+  color: rgb(6 6 6);
+  font-size: 25px;
+  font-style: oblique;
+  font-family: fangsong;
+  display: inline-block;
+  padding-bottom: 35px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +30,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(244, 240, 249) 0%, rgba(116,182,247,1) 90% );
   overflow: hidden;
 }
 
@@ -109,7 +117,7 @@ section {
 
 .swiper-slide--one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-  url(assets/image1.jpg)      no-repeat 50% 50% / cover;
+  url(assets/image9.jpg)      no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
@@ -132,6 +140,26 @@ section {
 .swiper-slide--five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
    url(assets/image5.jpg)      no-repeat 50% 50% / cover;
+}
+.swiper-slide--six {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+   url(assets/image6.jpg)      no-repeat 50% 50% / cover;
+}
+.swiper-slide--seven {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+   url(assets/image7.jpg)      no-repeat 50% 50% / cover;
+}
+.swiper-slide--eight {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+   url(assets/image8.jpg)      no-repeat 50% 50% / cover;
+}
+.swiper-slide--nine {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+   url(assets/image1.jpg)      no-repeat 50% 50% / cover;
+}
+.swiper-slide--ten {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+   url(assets/image10.jpg)      no-repeat 50% 50% / cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
